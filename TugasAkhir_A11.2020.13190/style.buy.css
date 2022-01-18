@@ -1,0 +1,180 @@
+.body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+.home{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background: #000;
+}
+
+.home a{
+    text-decoration: none;
+    color: #dddddd;
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.logo{
+    position: absolute;
+    width: 50%;
+    height: 64px;
+    left: 20px;
+    top: 40px;
+}
+.logo a{
+    position: absolute;
+    text-decoration: none;
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    top: 60px;
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+
+}
+.menu a{
+    left: 30px;
+    text-decoration: none;
+    color: #000000;
+    padding: 30px;
+    padding-left: 50px;
+}
+.shoppingbag{
+    position: absolute;
+    left: 1050px;
+    right: 0px;
+    top: 45px;
+}
+.shoppingbag img{
+    position: absolute;
+    width: 37px;
+    height: 41px;
+    padding-left: 100px;
+}
+
+.Buy h1{
+    position: absolute;
+    width: 470px;
+    height: 47px;
+    left: 370px;
+    top: 90px;
+
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.subscribe__form {
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 200px;
+    top: 170px;
+    background-color: var(--input-color);
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .subscribe__address {
+    position: absolute;
+    height: 30px;
+    left: 200px;
+    top: 50px;
+    width: 400px;
+    text-align: center;
+    padding-right: .5rem;
+    background-color: var(--input-color);
+    color: var(--text-color);
+  }
+  .subscribe__pc {
+    position: absolute;
+    height: 30px;
+    left: 200px;
+    top: 100px;
+    text-align: center;
+    width: 400px;
+    padding-right: .5rem;
+    background-color: var(--input-color);
+    color: var(--text-color);
+  }
+  .subscribe__cn {
+    position: absolute;
+    height: 30px;
+    left: 200px;
+    top: 150px;
+    text-align: center;
+    width: 400px;
+    padding-right: .5rem;
+    background-color: var(--input-color);
+    color: var(--text-color);
+  }
+  .subscribe__namecn {
+    position: absolute;
+    height: 30px;
+    left: 200px;
+    top: 200px;
+    text-align: center;
+    width: 400px;
+    padding-right: .5rem;
+    background-color: var(--input-color);
+    color: var(--text-color);
+  }
+
+  .subscribe__secpw {
+    position: absolute;
+    height: 30px;
+    left: 200px;
+    top: 250px;
+    text-align: center;
+    width: 400px;
+    padding-right: .5rem;
+    background-color: var(--input-color);
+    color: var(--text-color);
+  }
+  
+.button_Acc{
+    position: absolute;
+    height: 40px;
+    left: 210px;
+    top: 300px;
+    text-align: center;
+    width: 400px;
+}
+  
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    left: 0px;
+    top: 630px;
+  
+    background: #000000;
+}

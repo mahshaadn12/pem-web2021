@@ -1,0 +1,168 @@
+.body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+.home{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    background: #000;
+}
+
+.home a{
+    text-decoration: none;
+    color: #dddddd;
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.logo{
+    position: absolute;
+    width: 50%;
+    height: 64px;
+    left: 20px;
+    top: 40px;
+}
+.logo a{
+    position: absolute;
+    text-decoration: none;
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    left: 10px;
+    top: 60px;
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+
+}
+.menu a{
+    left: 30px;
+    text-decoration: none;
+    color: #000000;
+    padding: 30px;
+    padding-left: 50px;
+}
+.shoppingbag{
+    position: absolute;
+    left: 1050px;
+    right: 0px;
+    top: 45px;
+}
+.shoppingbag img{
+    position: absolute;
+    width: 37px;
+    height: 41px;
+    padding-left: 100px;
+}
+
+.createacc{
+    position: absolute;
+    width: 900px;
+    height: 48px;
+    left: 150px;
+    top: 95px;
+
+    font-family: Kotta One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+  
+.subscribe__form {
+  position: absolute;
+  width: 500px;
+  height: 48px;
+  left: 200px;
+  top: 190px;
+  background-color: var(--input-color);
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe__email {
+  position: absolute;
+  height: 48px;
+  left: 200px;
+  top: 10px;
+  width: 70%;
+  text-align: center;
+  padding-right: .5rem;
+  background-color: var(--input-color);
+  color: var(--text-color);
+}
+.subscribe__pw {
+  position: absolute;
+  height: 48px;
+  left: 200px;
+  top: 90px;
+  text-align: center;
+  width: 70%;
+  padding-right: .5rem;
+  background-color: var(--input-color);
+  color: var(--text-color);
+}
+.subscribe__nama {
+  position: absolute;
+  height: 48px;
+  left: 200px;
+  top: 180px;
+  text-align: center;
+  width: 70%;
+  padding-right: .5rem;
+  background-color: var(--input-color);
+  color: var(--text-color);
+}
+.subscribe__date {
+  position: absolute;
+  height: 48px;
+  left: 200px;
+  top: 270px;
+  text-align: center;
+  width: 70%;
+  padding-right: .5rem;
+  background-color: var(--input-color);
+  color: var(--text-color);
+}
+
+.button_Acc{
+    position: absolute;
+    height: 48px;
+    left: 250px;
+    top: 360px;
+    text-align: center;
+    width: 50%;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    left: 0px;
+    top: 630px;
+
+    background: #000000;
+}
